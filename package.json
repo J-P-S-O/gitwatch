@@ -1,6 +1,6 @@
 {
   "name": "gitwatch",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Automated git committer for Node.js",
   "main": "src/index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/J-P-S-O/gitwatch.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "J-P-S-O",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/J-P-S-O/gitwatch/issues"
   },
