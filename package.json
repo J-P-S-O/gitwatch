@@ -1,0 +1,19 @@
+{
+  "name": "gitwatch",
+  "version": "1.0.0",
+  "description": "Automated git committer for Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tsc test/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-P-S-O/gitwatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-P-S-O/gitwatch/issues"
+  },
+  "homepage": "https://github.com/J-P-S-O/gitwatch#readme"
+}
