@@ -1,6 +1,6 @@
 {
   "name": "auto-git-committer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Automated git committer for Node.js",
   "main": "src/index.js",
   "type":"module",
