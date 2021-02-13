@@ -14,7 +14,7 @@ spawner("git add *", ()=>{
 chokidar.watch('.').on('all', (event, path) => {
   console.log(event, path);
   spawner("git add *", ()=>{
-	  spawner("git commit -m "+ event+String(path).replaceAll(" ","_"), (code)=>{
+	  spawner("git commit -m "+ event+String(path).replace(" ","_"), (code)=>{
 		  console.log("Git exited with "+chalk.green(code))
 	  } )
   })
