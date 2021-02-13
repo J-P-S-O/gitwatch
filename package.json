@@ -1,8 +1,12 @@
 {
-  "name": "gitwatch",
+  "name": "auto-git-committer",
   "version": "0.0.0",
   "description": "Automated git committer for Node.js",
   "main": "src/index.js",
+  "type":"module",
+  "bin": {
+    "gitwatcher": "./bin/run"
+  },
   "scripts": {
     "test": "tsc test/test.ts"
   },
