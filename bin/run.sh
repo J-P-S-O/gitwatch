@@ -1,1 +1,1 @@
-node "./../src/run.js %*"
+node "./src/run.js %*"

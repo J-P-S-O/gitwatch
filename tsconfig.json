@@ -5,8 +5,9 @@
       "noImplicitAny": false,
       "removeComments": true,
       "preserveConstEnums": true,
-      "sourceMap": false
+      "sourceMap": false,
+      "allowSyntheticDefaultImports":true
     },
-    "include": ["**/*.ts"],
+    "include": ["src/*.ts"],
     "exclude": ["node_modules"] 
     }

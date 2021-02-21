@@ -8,7 +8,6 @@ export default function spawner(cmd, cb) {
     env: {}
   }
   cb = cb || function(){}
-  console.log(cmd)
   cmd = cmd.split(' ')
   opts.stdio = 'inherit'
   opts.env = Object.assign({}, process.env, opts.env || {})

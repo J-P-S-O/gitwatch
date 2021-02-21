@@ -1,3 +1,3 @@
 @echo off
 
-node ./../src/bin.js %*
+node ./src/run.js %*

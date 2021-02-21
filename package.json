@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Automated git committer for Node.js",
   "main": "src/index.js",
-  "type":"module",
+  "type": "module",
   "bin": {
     "gitwatcher": "./bin/run"
   },
