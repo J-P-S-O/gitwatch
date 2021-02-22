@@ -9,10 +9,8 @@ export default function spawner(cmd, cb) {
   }
   cb = cb || function(){}
   cmd = cmd.split(' ')
-  opts.stdio = 'inherit'
   opts.env = Object.assign({}, process.env, opts.env || {})
   spawn(cmd[0], cmd.slice(1), opts)
-    .on('error', console.log)
     .on('close', cb)
 
 }
