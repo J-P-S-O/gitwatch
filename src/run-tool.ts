@@ -11,6 +11,6 @@ export default function spawner(cmd, cb) {
   cmd = cmd.split(' ')
   opts.env = Object.assign({}, process.env, opts.env || {})
   spawn(cmd[0], cmd.slice(1), opts)
-    .on('close', cb)
+    .on('exit', cb)
 
 }
